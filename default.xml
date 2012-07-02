@@ -6,6 +6,7 @@
            revision="ics" />
 
   <default remote="gh"
+           revision="ics"
            sync-j="10" />
 
   <!-- CM replacements -->
