@@ -35,8 +35,8 @@
   <project path="AOKP_vendor/aokp" name="STS-Dev-Team/vendor_aokp" />
 
   <!-- KFire -->
-  <project path="frameworks/base" name="KFire-Android/android_frameworks_base" />
-  <project path="device/amazon/otter" name="KFire-Android/device-amazon-otter" />
-  <project path="kernel/amazon/otter" name="KFire-Android/kernel_omap" revision="4AI.5" />
-  <project path="vendor/amazon/otter" name="KFire-Android/android_vendor_amazon_otter" />
+  <project path="KFire_frameworks_base" name="KFire-Android/android_frameworks_base" />
+  <project path="KFire_device_amazon_otter" name="KFire-Android/device-amazon-otter" />
+  <project path="KFire_kernel_amazon_otter" name="KFire-Android/kernel_omap" revision="4AI.5" />
+  <project path="KFire_vendor_amazon_otter" name="KFire-Android/android_vendor_amazon_otter" />
 </manifest>
