@@ -1,50 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="omapzoom"
-           fetch="git://git.omapzoom.org/" />
+  <remote  name="gh"
+           fetch="https://github.com/"
+           revision="ics" />
 
-  <!-- CM removals -->
-  <remove-project name="CyanogenMod/android_hardware_samsung" />
-  <remove-project name="device/ti/panda" />
-  <remove-project name="CyanogenMod/android_frameworks_base" />
-  <remove-project name="CyanogenMod/android_hardware_ti_omap3" />
-  <remove-project name="platform/hardware/ti/omap4xxx" />
-  <remove-project name="CyanogenMod/android_packages_apps_Phone" />
-  <remove-project name="CyanogenMod/android_packages_providers_ContactsProvider" />
-  <remove-project name="CyanogenMod/android_system_core" />
-  <!-- ><remove-project name="CyanogenMod/android_vendor_cm" /> -->
-  <remove-project name="CyanogenMod/android_packages_apps_Usb" />
-  <remove-projact name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-audio" />
-  <remove-project name="CyanogenMod/android_vendor_qcom_opensource_kernel-tests_mm-audio" />
-  
+  <default remote="gh"
+           sync-j="10" />
+
   <!-- CM replacements -->
-  <project path="frameworks/base" name="STS-Dev-Team/android_frameworks_base" />
-  <project path="packages/apps/Phone" name="STS-Dev-Team/android_packages_apps_Phone" />
-  <project path="packages/providers/ContactsProvider" name="STS-Dev-Team/android_packages_providers_ContactsProvider" />
-  <project path="system/core" name="STS-Dev-Team/android_system_core" />
-  <!-- <project path="vendor/cm" name="STS-Dev-Team/android_vendor_cm" /> -->
-
-  <!-- CM optionals -->
-  <project path="packages/apps/Usb" name="CyanogenDefy/android_packages_apps_Usb" />
-  <project path="external/hostapd" name="tpruvot/android_external_hostapd" revision="ics" />
+  <project path="frameworks_base" name="STS-Dev-Team/android_frameworks_base" />
+  <project path="packages_apps_Phone" name="STS-Dev-Team/android_packages_apps_Phone" />
+  <project path="system_core" name="STS-Dev-Team/android_system_core" />
+  <project path="AOKP_packages_apps_Settings" name="STS-Dev-Team/android_packages_apps_Settings" revision="ics-aokp" />
+  <project path="bionic" name="STS-Dev-Team/android_bionic" />
+  <project path="hardware_ti_domx" name="STS-Dev-Team/android_hardware_ti_domx" />
+  <project path="hardware_ti_omap4xxx" name="STS-Dev-Team/android_hardware_ti_omap4xxx" />
 
   <!-- local projects -->
-  <project path="device/motorola/solana" name="STS-Dev-Team/android_device_motorola_solana" />
-  <project path="device/motorola/targa" name="STS-Dev-Team/android_device_motorola_targa" />
-  <project path="device/motorola/spyder" name="STS-Dev-Team/android_device_motorola_spyder" />
-  <project path="device/motorola/maserati" name="STS-Dev-Team/android_device_motorola_maserati" />
-  <project path="hardware/ti/camera" name="Hashcode/android_hardware_ti_camera" revision="refs/heads/ics-hybrid-solana" />
-  <project path="hardware/ti/omap4xxx" name="Hashcode/android_hardware_ti_omap4xxx" revision="refs/heads/ics-hybrid" />
-  <project path="hardware/ti/syslink" name="Hashcode/android_hardware_ti_syslink" />
-  <project path="hardware/ti/tiler" name="platform/hardware/ti/tiler" remote="omapzoom" revision="refs/heads/memmgr_1.0" />
-  <project path="hardware/ti/wpan" name="Hashcode/android_hardware_ti_wpan" />
+  <project path="CM_device_motorola_solana" name="STS-Dev-Team/android_device_motorola_solana" />
+  <project path="CM_device_motorola_targa" name="STS-Dev-Team/android_device_motorola_targa" />
+  <project path="CM_device_motorola_spyder" name="STS-Dev-Team/android_device_motorola_spyder" />
+  <project path="CM_device_motorola_maserati" name="STS-Dev-Team/android_device_motorola_maserati" />
+  <project path="hardware_ti_camera" name="Hashcode/android_hardware_ti_camera" revision="refs/heads/ics-hybrid-solana" />
+  <project path="hardware_ti_omap4xxx-hybrid" name="Hashcode/android_hardware_ti_omap4xxx" revision="refs/heads/ics-hybrid" />
   <project path="vendor/verizon" name="STS-Dev-Team/proprietary_vendor_verizon" />
-  <project path="vendor/motorola/solana" name="STS-Dev-Team/android_vendor_motorola_solana" />
-  <project path="vendor/motorola/targa" name="STS-Dev-Team/android_vendor_motorola_targa" />
-  <project path="vendor/motorola/spyder" name="STS-Dev-Team/android_vendor_motorola_spyder" />
-  <project path="vendor/motorola/maserati" name="STS-Dev-Team/android_vendor_motorola_maserati" />
-  <project path="packages/apps/FileManager" name="STS-Dev-Team/android_packages_apps_FileManager" />
-  <project path="packages/apps/DockAudio" name="Atrix-Dev-Team/android_packages_apps_DockAudio" revision="refs/heads/gingerbread" />
+  <project path="CM_vendor_motorola_solana" name="STS-Dev-Team/android_vendor_motorola_solana" />
+  <project path="CM_vendor_motorola_targa" name="STS-Dev-Team/android_vendor_motorola_targa" />
+  <project path="CM_vendor_motorola_spyder" name="STS-Dev-Team/android_vendor_motorola_spyder" />
+  <project path="CM_vendor_motorola_maserati" name="STS-Dev-Team/android_vendor_motorola_maserati" />
+  <project path="AOKP_device_moto/targa" name="dhacker29/android_device_moto_targa" />
+  <project path="AOKP_device_moto/spyder" name="dhacker29/android_device_moto_spyder" />
+  <project path="AOKP_device_moto/maserati" name="dhacker29/android_device_moto_maserati" />
+  <project path="AOKP_vendor/moto" name="dhacker29/vendor_moto" />
   
 </manifest>
