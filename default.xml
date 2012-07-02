@@ -23,7 +23,7 @@
   <project path="CM_device_motorola_targa" name="STS-Dev-Team/android_device_motorola_targa" />
   <project path="CM_device_motorola_spyder" name="STS-Dev-Team/android_device_motorola_spyder" />
   <project path="CM_device_motorola_maserati" name="STS-Dev-Team/android_device_motorola_maserati" />
-  <project path="vendor/verizon" name="STS-Dev-Team/proprietary_vendor_verizon" />
+  <project path="vendor_verizon" name="STS-Dev-Team/proprietary_vendor_verizon" />
   <project path="CM_vendor_motorola_solana" name="STS-Dev-Team/android_vendor_motorola_solana" />
   <project path="CM_vendor_motorola_targa" name="STS-Dev-Team/android_vendor_motorola_targa" />
   <project path="CM_vendor_motorola_spyder" name="STS-Dev-Team/android_vendor_motorola_spyder" />
