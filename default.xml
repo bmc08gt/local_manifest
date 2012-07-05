@@ -33,6 +33,7 @@
   <project path="AOKP_device_moto/maserati" name="dhacker29/android_device_moto_maserati" />
   <project path="AOKP_vendor/moto" name="dhacker29/vendor_moto" />
   <project path="AOKP_vendor/aokp" name="STS-Dev-Team/vendor_aokp" />
+  <project path="kernel_omap4_xt910s" name="STS-Dev-Team/kernel_omap4_xt910s" revision="master" />
 
   <!-- KFire -->
   <project path="KFire_frameworks_base" name="KFire-Android/android_frameworks_base" />
