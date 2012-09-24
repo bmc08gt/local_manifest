@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="gh"
-           fetch="https://github.com/AOKP-SGS3"
+           fetch="https://github.com/AOKP-SGS3/"
            revision="jb" />
            
        
