@@ -1,1 +1,5 @@
-Manifest to sync gitweb for STS-Dev-Team
+Manifest to sync testing commits for AOKP (d2vzw and d2usc)
+
+repo init -u git://github.com/AOKP/android.git -b jb
+
+curl -L -o .repo/local_manifest.xml -O -L https://raw.github.com/AOKP-SGS3/local_manifest/master/local_manifest.xml
