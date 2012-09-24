@@ -5,9 +5,7 @@
            fetch="https://github.com/AOKP-SGS3"
            revision="jb" />
            
-   <remote  name="cm"
-           fetch="https://github.com/CyanogenMod"
-           revision="jellybean" />        
+       
            
   <remove-project name="AOKP/frameworks_base" />
   <remove-project name="AOKP/packages_apps_ROMControl" />
@@ -22,7 +20,7 @@
   <project path="vendor/samsung" name="vendor_samsung" remote="gh" />
   
   <!-- CM -->
-  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" />
+  <project path="kernel/samsung/d2" name="CyanogenMod/android_kernel_samsung_d2" remote="cm" />
   
 </manifest>  
 
