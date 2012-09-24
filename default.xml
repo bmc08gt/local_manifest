@@ -5,13 +5,21 @@
            fetch="https://github.com/AOKP-SGS3"
            revision="jb" />
            
-  <remove-project name="AOKP/frameworks_base"
-  <remove-project name="AOKP/packages_apps_ROMControl"
-  <remove-project name="AOKP/vendor_aokp"
+   <remote  name="cm"
+           fetch="https://github.com/CyanogenMod"
+           revision="jellybean" />        
+           
+  <remove-project name="AOKP/frameworks_base" />
+  <remove-project name="AOKP/packages_apps_ROMControl" />
+  <remove-project name="AOKP/vendor_aokp" />
   
+  <!-- local -->
   <project path="device/samsung/d2usc" name="device_samsung_d2usc" remote="gh" revision="jellybean" />
   <project path="frameworks/base" name="frameworks_base" remote="gh" />
   <project path="packages/apps/ROMControl" name="packages_apps_ROMControl" remote="gh" />
   <project path="vendor/aokp" name="vendor_aokp" remote="gh" />
+  
+  <!-- CM -->
+  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" />
 
   
