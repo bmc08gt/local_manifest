@@ -19,7 +19,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="gh" />
   <project path="packages/apps/ROMControl" name="packages_apps_ROMControl" remote="gh" />
   <project path="vendor/aokp" name="vendor_aokp" remote="gh" />
-  <project path="vendor/aokp" name="vendor_samsung" remote="gh" />
+  <project path="vendor/samsung" name="vendor_samsung" remote="gh" />
   
   <!-- CM -->
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" />
