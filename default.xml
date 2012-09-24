@@ -14,7 +14,7 @@
   <project path="frameworks/base" name="AOKP-SGS3/frameworks_base" remote="aokp" />
   <project path="packages/apps/ROMControl" name="AOKP-SGS3/packages_apps_ROMControl" remote="aokp" />
   <project path="vendor/aokp" name="AOKP-SGS3/vendor_aokp" remote="aokp" />
-  <project path="vendor/samsung" name="AOKP-SGS3/vendor_samsung"remote="aokp" />
+  <project path="vendor/samsung" name="AOKP-SGS3/vendor_samsung" remote="aokp" />
   
   <!-- CM -->
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="jellybean" />
