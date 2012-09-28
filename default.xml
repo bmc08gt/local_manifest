@@ -14,13 +14,11 @@
   
   <!-- local -->
   <project path="device/samsung/d2-common" name="AOKP-SGS3/device_samsung_d2-common" remote="aokp" revision="jb" />
-  <project path="device/samsung/d2usc" name="AOKP-SGS3/device_samsung_d2usc" remote="sgs3" revision="jellybean" />
   <project path="frameworks/base" name="AOKP-SGS3/frameworks_base" remote="aokp" revision="jb" />
   <project path="packages/apps/ROMControl" name="AOKP-SGS3/packages_apps_ROMControl" remote="aokp" revision="jb" />
   <project path="packages/apps/Settings" name="AOKP-SGS3/packages_apps_Settings" remote="aokp" revision="jb" />
   <project path="system/core" name="AOKP-SGS3/system_core" remote="aokp" revision="jb" />
   <project path="vendor/aokp" name="AOKP-SGS3/vendor_aokp" remote="aokp" revision="jb" />
-  <project path="vendor/samsung" name="AOKP-SGS3/vendor_samsung" remote="aokp" revision="jb" />
   
   <!-- CM -->
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="jellybean" />
