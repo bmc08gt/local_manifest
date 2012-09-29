@@ -7,18 +7,14 @@
   <remove-project name="AOKP/android_device_samsung_d2-common" />
   <remove-project name="AOKP/frameworks_base" />
   <remove-project name="AOKP/packages_apps_ROMControl" />
-  <remove-project name="AOKP/packages_apps_Settings" />
-  <remove-project name="AOKP/android_system_core" />
   
   <!-- local -->
   <project path="device/samsung/d2-common" name="AOKP-SGS3/device_samsung_d2-common" remote="aokp" revision="jb" />
   <project path="frameworks/base" name="AOKP-SGS3/frameworks_base" remote="aokp" revision="jb" />
   <project path="packages/apps/ROMControl" name="AOKP-SGS3/packages_apps_ROMControl" remote="aokp" revision="jb" />
-  <project path="packages/apps/Settings" name="AOKP-SGS3/packages_apps_Settings" remote="aokp" revision="jb" />
-  <project path="system/core" name="AOKP-SGS3/system_core" remote="aokp" revision="jb" />
   
   <!-- CM -->
-  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="jellybean" />
+  <project path="kernel/samsung/d2" name="faux123/SGH-Krait" remote="aokp" revision="jb_cm_exp" />
   
 </manifest>  
 
