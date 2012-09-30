@@ -5,8 +5,8 @@
   <remove-project name="AOKP/packages_apps_ROMControl" />
   
   <!-- local -->
-  <project path="frameworks/base" name="AOKP-SGS3/frameworks_base" remote="aokp" revision="jb" />
-  <project path="packages/apps/ROMControl" name="AOKP-SGS3/packages_apps_ROMControl" remote="aokp" revision="jb" />
+  <!-- <project path="frameworks/base" name="AOKP-SGS3/frameworks_base" remote="aokp" revision="jb" /> 
+  <project path="packages/apps/ROMControl" name="AOKP-SGS3/packages_apps_ROMControl" remote="aokp" revision="jb" /> -->
    
   <!-- Faux -->
   <project path="kernel/samsung/d2" name="faux123/SGH-Krait" remote="aokp" revision="jb_cm_exp" />
