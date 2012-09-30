@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remove-project name="AOKP/frameworks_base" />
-  <remove-project name="AOKP/packages_apps_ROMControl" />
+  <!-- <remove-project name="AOKP/frameworks_base" />
+  <remove-project name="AOKP/packages_apps_ROMControl" /> -->
   
   <!-- local -->
   <!-- <project path="frameworks/base" name="AOKP-SGS3/frameworks_base" remote="aokp" revision="jb" /> 
