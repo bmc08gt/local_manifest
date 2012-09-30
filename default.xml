@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remove-project name="AOKP/android_device_samsung_d2-common" />
   <remove-project name="AOKP/frameworks_base" />
   <remove-project name="AOKP/packages_apps_ROMControl" />
-  <remove-project name="AOKP/vendor_aokp" />
   
   <!-- local -->
-  <project path="device/samsung/d2-common" name="AOKP-SGS3/device_samsung_d2-common" remote="aokp" revision="jb" />
   <project path="frameworks/base" name="AOKP-SGS3/frameworks_base" remote="aokp" revision="jb" />
   <project path="packages/apps/ROMControl" name="AOKP-SGS3/packages_apps_ROMControl" remote="aokp" revision="jb" />
-  <project path="vendor/aokp" name="AOKP-SGS3/vendor_aokp" remote="aokp" revision="jb" />
    
   <!-- Faux -->
   <project path="kernel/samsung/d2" name="faux123/SGH-Krait" remote="aokp" revision="jb_cm_exp" />
