@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="gh"
+           fetch="https://github.com/" />
+
+
   <remove-project name="AOKP/android_device_samsung_d2-common" />
   <remove-project name="AOKP/frameworks_base" />
+  <remove-project name="android_hardware_qcom_audio" />
   <remove-project name="AOKP/packages_apps_ROMControl" />
   
   
   <!-- local -->
-  <project path="device/samsung/d2-common" name="AOKP-SGS3/device_samsung_d2-common" remote="aokp" revision="jb" />
-  <project path="frameworks/base" name="AOKP-SGS3/frameworks_base" remote="aokp" revision="jb" /> 
-  <project path="packages/apps/ROMControl" name="AOKP-SGS3/packages_apps_ROMControl" remote="aokp" revision="jb" />
+  <project path="device/samsung/d2-common" name="AOKP-SGS3/device_samsung_d2-common" remote="gh" revision="jb" />
+  <project path="frameworks/base" name="AOKP-SGS3/frameworks_base" remote="gh" revision="jb" /> 
+  <project path="hardware/qcom/audio" name="AOKP-SGS3/hardware_qcom_audio" remote="gh" revision="jellybean" />
+  <project path="packages/apps/ROMControl" name="AOKP-SGS3/packages_apps_ROMControl" remote="gh" revision="jb" />
   
   <!-- Faux -->
-  <project path="kernel/samsung/d2" name="faux123/SGH-Krait" remote="aokp" revision="jb_cm_exp" />
+  <project path="kernel/samsung/d2" name="faux123/SGH-Krait" remote="gh" revision="jb_cm_exp" />
   
 </manifest>  
 
