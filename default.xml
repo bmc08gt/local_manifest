@@ -10,7 +10,7 @@
   
   
   <!-- local -->
-  <project path="device/samsung/d2-common" name="AOKP-SGS3/device_samsung_d2-common" remote="gh" revision="jb" />
+  <project path="device/samsung/d2-common" name="AOKP-SGS3/android_device_samsung_d2-common" remote="gh" revision="jb" />
   <project path="packages/apps/ROMControl" name="AOKP-SGS3/packages_apps_ROMControl" remote="gh" revision="jb" />
   
   <project path="build" name="AOKP-SGS3/build" remote="gh" revision="jb" >
