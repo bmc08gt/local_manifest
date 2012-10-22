@@ -4,11 +4,9 @@
   <remote  name="gh"
            fetch="https://github.com/" />
 
-
+  <remove-project name="AOKP/android_build" />
   <remove-project name="AOKP/android_device_samsung_d2-common" />
   <remove-project name="AOKP/packages_apps_ROMControl" />
-  
-  <remove-project name="AOKP/android_build" />
   
   
   <!-- local -->
