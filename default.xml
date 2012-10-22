@@ -5,17 +5,15 @@
            fetch="https://github.com/" />
 
 
-  <!-- <remove-project name="AOKP/android_device_samsung_d2-common" />
-  <remove-project name="AOKP/frameworks_base" />
-  <remove-project name="AOKP/packages_apps_ROMControl" /> -->
+  <remove-project name="AOKP/android_device_samsung_d2-common" />
+  <remove-project name="AOKP/packages_apps_ROMControl" />
   
   <remove-project name="AOKP/android_build" />
   
   
   <!-- local -->
-  <!--<project path="device/samsung/d2-common" name="AOKP-SGS3/device_samsung_d2-common" remote="gh" revision="jb" />
-  <project path="frameworks/base" name="AOKP-SGS3/frameworks_base" remote="gh" revision="jb" /> >
-  <project path="packages/apps/ROMControl" name="AOKP-SGS3/packages_apps_ROMControl" remote="gh" revision="jb" /> -->
+  <project path="device/samsung/d2-common" name="AOKP-SGS3/device_samsung_d2-common" remote="gh" revision="jb" />
+  <project path="packages/apps/ROMControl" name="AOKP-SGS3/packages_apps_ROMControl" remote="gh" revision="jb" />
   
   <project path="build" name="AOKP-SGS3/build" remote="gh" revision="jb" >
     <copyfile src="core/root.mk" dest="Makefile" />
