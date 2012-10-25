@@ -16,7 +16,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="device/samsung/d2-common" name="AOKP-SGS3/android_device_samsung_d2-common" remote="gh" revision="jb" />
-  <project path="fraemworks/base" name="AOKP-SGS3/frameworks_base" remote="gh" revision="jb" />
+  <project path="frameworks/base" name="AOKP-SGS3/frameworks_base" remote="gh" revision="jb" />
   <project path="packages/apps/ROMControl" name="AOKP-SGS3/packages_apps_ROMControl" remote="gh" revision="jb" />
   <project path="vendor/aokp" name="AOKP-SGS3/vendor_aokp" remote="gh" revision="jb" />
 
