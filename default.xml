@@ -9,6 +9,7 @@
   <remove-project name="AOKP/packages_apps_Camera" />
   <remove-project name="AOKP/packages_apps_Phone" />
   <remove-project name="AOKP/packages_apps_ROMControl" />
+  <remove-project name="AOKP/vendor_aokp" />
   
   
   <!-- local -->
@@ -19,6 +20,7 @@
   <project path="packages/apps/Camera" name="AOKP-SGS3/packages_apps_Camera" remote="gh" revision="jb" />
   <project path="packages/apps/Phone" name="AOKP-SGS3/packages_apps_Phone" remote="gh" revision="jb" />
   <project path="packages/apps/ROMControl" name="AOKP-SGS3/packages_apps_ROMControl" remote="gh" revision="jb" />
+  <project path="vendor/aokp" name="AOKP-SGS3/vendor_aokp" remote="gh" revision="jb" />
 
   <!-- Faux -->
   <project path="kernel/samsung/d2" name="faux123/SGH-Krait" remote="gh" revision="jb_cm_exp" />
