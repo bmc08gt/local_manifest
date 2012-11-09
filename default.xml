@@ -5,11 +5,13 @@
            fetch="https://github.com/" />
 
   <remove-project name="AOKP/frameworks_base" />
+  <remove-project name="AOKP/packages_apps_Camera" />
   <remove-project name="AOKP/packages_apps_ROMControl" />
   <remove-project name="AOKP/vendor_aokp" />
 
   <!-- Local -->
   <project path="frameworks/base" name="AOKP-SGS3/frameworks_base" remote="gh" revision="jb" />
+  <project path="packages/apps/Camera" name="AOKP-SGS3/packages_apps_Camera" remote="gh" revision="jb" />
   <project path="packages/apps/ROMControl" name="AOKP-SGS3/packages_apps_ROMControl" remote="gh" revision="jb" />
   <project path="vendor/aokp" name="AOKP-SGS3/vendor_aokp" remote="gh" revision="jb" />
 
