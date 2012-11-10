@@ -8,7 +8,7 @@
   <remove-project name="AOKP/android_device_samsung_msm8960-common" />
   <remove-project name="AOKP/external_bluetooth_bluez" />
   <remove-project name="AOKP/frameworks_base" />
-  <remove-project name="CyanogenMod/android_hardware_qcom_audio" />
+  <remove-project name="android_hardware_qcom_audio" />
   <remove-project name="AOKP/packages_apps_Camera" />
   <remove-project name="AOKP/vendor_aokp" />
 
