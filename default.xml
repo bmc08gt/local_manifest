@@ -4,19 +4,13 @@
   <remote  name="gh"
            fetch="https://github.com/" />
 
-  <remove-project name="AOKP/android_device_samsung_d2-common" />
-  <remove-project name="AOKP/android_device_samsung_msm8960-common" />
   <remove-project name="AOKP/external_bluetooth_bluez" />
   <remove-project name="AOKP/frameworks_base" />
-  <remove-project name="android_hardware_qcom_audio" />
   <remove-project name="AOKP/packages_apps_Camera" />
   <remove-project name="AOKP/vendor_aokp" />
 
   <!-- Local -->
-  <project path="device/samsung/d2-common" name="AOKP-SGS3/device_samsung_d2-common" remote="gh" revision="jb" />
-  <project path="device/samsung/msm8960-common" name="AOKP-SGS3/device_samsung_msm8960-common" remote="gh" revision="jb" />
   <project path="external/bluetooth/bluez" name="AOKP-SGS3/external_bluetooth_bluez" remote="gh" revision="jb" />
-  <project path="hardware/qcom/audio" name="AOKP-SGS3/hardware_qcom_audio" remote="gh" revision="jellybean" />
   <project path="frameworks/base" name="AOKP-SGS3/frameworks_base" remote="gh" revision="jb" />
   <project path="packages/apps/Camera" name="AOKP-SGS3/packages_apps_Camera" remote="gh" revision="jb" />
   <project path="vendor/aokp" name="AOKP-SGS3/vendor_aokp" remote="gh" revision="jb" />
