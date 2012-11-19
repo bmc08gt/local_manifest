@@ -1,5 +1,4 @@
 Manifest to sync testing commits for AOKP
 
-repo init -u git://github.com/AOKP/platform_manifest.git -b jb
 
-curl -L -o .repo/local_manifest.xml -O -L https://raw.github.com/AOKP-SGS3/local_manifest/master/default.xml
+curl -L -o .repo/local_manifest.xml -O -L https://raw.github.com/BMc08GT/local_manifest/master/default.xml
