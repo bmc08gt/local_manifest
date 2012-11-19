@@ -1,4 +1,3 @@
-Manifest to sync testing commits for AOKP
 
 
 curl -L -o .repo/local_manifest.xml -O -L https://raw.github.com/BMc08GT/local_manifest/master/default.xml
