@@ -1,22 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="sgs3"
-           fetch="https://github.com/AOKP-SGS3" />
-
   <remote  name="gh"
            fetch="https://github.com/" />
 
-  <remove-project name="AOKP/frameworks_base" />
-  <remove-project name="AOKP/packages_apps_ROMControl" />
-  <remove-project name="AOKP/packages_apps_Settings" />
+
 
   <!-- Local -->
-  <project path="frameworks/base" name="frameworks_base" remote="sgs3" revision="jb" />
-  <project path="packages/apps/ROMControl" name="packages_apps_ROMControl" remote="sgs3" revision="jb" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="sgs3" revision="jb" />
-  <project path="vendor/aokp" name="vendor_aokp" remote="sgs3" revision="jb" />
-
+  <project path="device/samsung/d2-common" name="BMc08GT/device_samsung_d2-common" remote="gh" revision="jb" />
+  <project path="device/samsung/d2vzw" name="BMc08GT/device_samsung_d2vzw" remote="gh" revision="jb" />
 
   <!-- Faux -->
   <project path="kernel/samsung/d2" name="faux123/SGH-Krait" remote="gh" revision="jb_cm_exp" />
