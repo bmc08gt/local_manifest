@@ -4,6 +4,10 @@
   <remote  name="gh"
            fetch="https://github.com/" />
 
+  <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="vendor_aokp" />
+
 
 
   <!-- Local -->
