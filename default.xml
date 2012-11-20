@@ -11,6 +11,9 @@
   <project path="device/samsung/d2vzw" name="BMc08GT/device_samsung_d2vzw" remote="gh" revision="jb" />
   <project path="device/samsung/msm8960-common" name="BMc08GT/device_samsung_msm8960-common" remote="gh" revision="jb" />
   <project path="device/samsung/qcom-common" name="BMc08GT/device_samsung_qcom-common" remote="gh" revision="jb" />
+  <project path="hardware/qcom/audio" name="BMc08GT/hardware_qcom_audio" remote="gh" revision="master" />
+  <project path="hardware/qcom/display" name="BMc08GT/hardware_qcom_display" remote="gh" revision="master" />
+  <project path="vendor/aokp" name="BMc08GT/vendor_aokp" remote="gh" revision="master" />
 
   <!-- Faux -->
   <project path="kernel/samsung/d2" name="faux123/SGH-Krait" remote="gh" revision="jb_cm_exp" />
