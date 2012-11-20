@@ -17,7 +17,7 @@
 
   <!-- Faux -->
   <!-- <project path="kernel/samsung/d2" name="faux123/SGH-Krait" remote="gh" revision="jb_cm_exp" /> -->
-  <project path="kernel/samsung/d2" name="BMc08GT/SGH-Krait" remote="gh" revision="jb_mr1" />
+  <project path="kernel/samsung/d2" name="BMc08GT/SGH-Krait" remote="gh" revision="jb_cm_exp" />
 
 </manifest>  
 
