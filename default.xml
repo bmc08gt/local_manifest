@@ -5,12 +5,10 @@
            fetch="https://github.com/" />
 
   <remove-project name="platform/bootable/recovery" />
-  <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="system_core" />
   <remove-project name="vendor_aokp" />
-  <remove-project name="vendor_samsung" />
 
 
 
@@ -19,12 +17,10 @@
   <project path="device/samsung/d2vzw" name="BMc08GT/device_samsung_d2vzw" remote="gh" revision="jb" />
   <project path="device/samsung/msm8960-common" name="BMc08GT/device_samsung_msm8960-common" remote="gh" revision="jb" />
   <project path="device/samsung/qcom-common" name="BMc08GT/device_samsung_qcom-common" remote="gh" revision="jb" />
-  <project path="frameworks/native" name="BMc08GT/frameworks_native" remote="gh" revision="jb-mr1" />
   <project path="hardware/qcom/audio" name="BMc08GT/hardware_qcom_audio" remote="gh" revision="jb-mr1" />
   <project path="hardware/qcom/display" name="BMc08GT/hardware_qcom_display" remote="gh" revision="jb-mr1" />
   <project path="system/core" name="BMc08GT/system_core" remote="gh" revision="jb-mr1" />
   <project path="vendor/aokp" name="BMc08GT/vendor_aokp" remote="gh" revision="jb-mr1" />
-  <project path="vendor/samsung" name="BMc08GT/vendor_samsung" remote="gh" revision="jb-mr1" />
 
   <!-- IMO -->
   <project path="kernel/samsung/d2" name="imoseyon/leanKernel-d2vzw" remote="gh" revision="lk-cm" />
