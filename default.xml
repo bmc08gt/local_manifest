@@ -3,6 +3,7 @@
 
   <remote  name="gh"
            fetch="https://github.com/" />
+
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/hardware/qcom/audio" />
@@ -14,6 +15,7 @@
 
 
   <!-- Local -->
+  <project path="bootable/recovery" name="BMc08GT/bootable_recovery" remote="gh" revision="jb-mr1" />
   <project path="device/samsung/d2-common" name="BMc08GT/device_samsung_d2-common" remote="gh" revision="jb" />
   <project path="device/samsung/d2vzw" name="BMc08GT/device_samsung_d2vzw" remote="gh" revision="jb" />
   <project path="device/samsung/msm8960-common" name="BMc08GT/device_samsung_msm8960-common" remote="gh" revision="jb" />
@@ -28,8 +30,6 @@
   <!-- IMO -->
   <project path="kernel/samsung/d2" name="imoseyon/leanKernel-d2vzw" remote="gh" revision="lk-cm" />
 
-  <!-- cm to fix backup issue due to new storage paths ;) -->
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="gh" revision="mr1-staging" />
 
 </manifest>  
 
