@@ -29,7 +29,7 @@
   <project path="kernel/samsung/d2" name="imoseyon/leanKernel-d2vzw" remote="gh" revision="lk-cm" />
 
   <!-- cm to fix backup issue due to new storage paths ;) -->
-  project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="gh" revision="mr1-staging" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="gh" revision="mr1-staging" />
 
 </manifest>  
 
