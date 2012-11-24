@@ -25,9 +25,8 @@
   <project path="vendor/aokp" name="BMc08GT/vendor_aokp" remote="gh" revision="jb-mr1" />
   <project path="vendor/samsung" name="BMc08GT/vendor_samsung" remote="gh" revision="jb-mr1" />
 
-  <!-- Faux -->
-  <project path="kernel/samsung/d2" name="faux123/SGH-Krait" remote="gh" revision="jb_cm_exp" />
-  <!-- <project path="kernel/samsung/d2" name="BMc08GT/SGH-Krait" remote="gh" revision="jb-mr1" /> -->
+  <!-- IMO -->
+  <project path="kernel/samsung/d2" name="imoseyon/leanKernel-d2vzw" remote="gh" revision="lk-cm" />
 
 </manifest>  
 
