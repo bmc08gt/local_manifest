@@ -3,7 +3,7 @@
 
   <remote  name="gh"
            fetch="https://github.com/" />
-
+  <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/display" />
@@ -27,6 +27,9 @@
 
   <!-- IMO -->
   <project path="kernel/samsung/d2" name="imoseyon/leanKernel-d2vzw" remote="gh" revision="lk-cm" />
+
+  <!-- cm to fix backup issue due to new storage paths ;) -->
+  project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="gh" revision="mr1-staging" />
 
 </manifest>  
 
