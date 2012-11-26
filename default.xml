@@ -22,7 +22,6 @@
   <project path="vendor/aokp" name="BMc08GT/vendor_aokp" remote="gh" revision="jb-mr1" />
 
   <!-- Kernel -->
-  <!-- FLASH IMOSEYON'S V1.10 TO BOOT FARTHER IN BOOT SEQUENCE.  -->
   <project path="kernel/samsung/d2" name="BMc08GT/leanKernel-d2vzw" remote="gh" revision="lk-cm" />
 
 </manifest>  
