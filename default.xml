@@ -4,6 +4,8 @@
   <remote  name="gh"
            fetch="https://github.com/" />
 
+  <remove-project name="frameworks_nativee" />
+  <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="vendor_aokp" />
@@ -15,13 +17,13 @@
   <project path="device/samsung/d2vzw" name="BMc08GT/device_samsung_d2vzw" remote="gh" revision="jb" />
   <project path="device/samsung/msm8960-common" name="BMc08GT/device_samsung_msm8960-common" remote="gh" revision="jb" />
   <project path="device/samsung/qcom-common" name="BMc08GT/device_samsung_qcom-common" remote="gh" revision="jb" />
+  <project path="frameworks/native" name="BMc08GT/frameworks_native" remote="gh" revision="jb-mr1" />
+  <project path="hardware/libhardware" name="BMc08GT/hardware_libhardware" remote="gh" revision="jb-mr1" />
   <project path="hardware/qcom/audio" name="BMc08GT/hardware_qcom_audio" remote="gh" revision="jb-mr1" />
-  <!-- <project path="hardware/qcom/display" name="BMc08GT/hardware_qcom_display" remote="gh" revision="jb-mr1" /> -->
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="gh" revision="jellybean" />
   <project path="vendor/aokp" name="BMc08GT/vendor_aokp" remote="gh" revision="jb-mr1" />
 
   <!-- Kernel -->
-  <!-- <project path="kernel/samsung/d2" name="BMc08GT/leanKernel-d2vzw" remote="gh" revision="jb-mr1" /> -->
   <project path="kernel/samsung/d2" name="faux123/SGH-Krait" remote="gh" revision="jb_cm_exp" />
 
 </manifest>  
