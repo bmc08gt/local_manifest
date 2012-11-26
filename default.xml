@@ -20,7 +20,7 @@
   <project path="vendor/aokp" name="BMc08GT/vendor_aokp" remote="gh" revision="jb-mr1" />
 
   <!-- Kernel -->
-  <project path="kernel/samsung/d2" name="BMc08GT/leanKernel-d2vzw" remote="gh" revision="lk-cm" />
+  <project path="kernel/samsung/d2" name="BMc08GT/leanKernel-d2vzw" remote="gh" revision="jb-mr1" />
 
 </manifest>  
 
