@@ -5,7 +5,7 @@
            fetch="https://github.com/" />
 
   <remove-project name="frameworks_native" />
-  <remove-project name="frameworks_opt_telephony" />
+  <remove-project name="android_frameworks_opt_telephony" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/display" />
