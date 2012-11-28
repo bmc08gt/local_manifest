@@ -18,7 +18,7 @@
   <project path="device/samsung/qcom-common" name="BMc08GT/device_samsung_qcom-common" remote="gh" revision="jb" />
   <project path="frameworks/native" name="BMc08GT/frameworks_native" remote="gh" revision="jb-mr1" />
   <project path="hardware/libhardware" name="BMc08GT/hardware_libhardware" remote="gh" revision="jb4.2" />
-  <project path="hardware/qcom/display" name="BMc08GT/hardware_qcom_display" remote="gh" revision="jb4.2" />
+  <project path="hardware/qcom/display" name="BMc08GT/hardware_qcom_display" remote="gh" revision="jb-mr1" />
   <project path="vendor/aokp" name="BMc08GT/vendor_aokp" remote="gh" revision="jb-mr1" />
 
   <!-- Kernel
