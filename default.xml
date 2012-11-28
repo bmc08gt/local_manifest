@@ -4,10 +4,10 @@
   <remote  name="gh"
            fetch="https://github.com/" />
            
-  <remove-project name="frameworks_native" />
+  <remove-project name="AOKP/frameworks_native" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/qcom/display" />
-  <remove-project name="vendor_aokp" />
+  <remove-project name="AOKP/vendor_aokp" />
 
 
 
