@@ -5,15 +5,21 @@
            fetch="https://github.com/" />
            
   <remove-project name="AOKP/frameworks_base" />         
-  <!--<remove-project name="AOKP/frameworks_native" /> -->
   <remove-project name="android_frameworks_opt_telephony" />
-  <!-- <remove-project name="platform/hardware/libhardware" />
-  <remove-project name="platform/hardware/qcom/display" /> -->
   <remove-project name="AOKP/packages_apps_Phone" />
   <remove-project name="AOKP/vendor_aokp" />
+   
+  <!-- QCOM swap -->
+  <!--<remove-project name="AOKP/frameworks_native" />
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/qcom/display" /> -->
   <remove-project name="AOKP/vendor_samsung" />
-
-
+  <!-- --------------------- -->
+  <!-- project path="frameworks/native" name="BMc08GT/frameworks_native" remote="gh" revision="jb-mr1" />
+  <project path="hardware/libhardware" name="BMc08GT/hardware_libhardware" remote="gh" revision="jb-mr1" />
+  <project path="hardware/qcom/display" name="BMc08GT/hardware_qcom_display-legacy" remote="gh" revision="jb-mr1" /> -->
+  <project path="hardware/qcom/display" name="BMc08GT/hardware_qcom_display" remote="gh" revision="jb-mr1" />
+  <project path="vendor/samsung" name="BMc08GT/vendor_samsung" remote="gh" revision="jb-mr1" />
 
   <!-- Local -->
   <project path="device/samsung/d2-common" name="BMc08GT/device_samsung_d2-common" remote="gh" revision="jb" />
@@ -21,14 +27,9 @@
   <project path="device/samsung/msm8960-common" name="BMc08GT/device_samsung_msm8960-common" remote="gh" revision="jb" />
   <project path="device/samsung/qcom-common" name="BMc08GT/device_samsung_qcom-common" remote="gh" revision="jb" />
   <project path="frameworks/base" name="BMc08GT/frameworks_base" remote="gh" revision="jb-mr1" />
-  <!-- project path="frameworks/native" name="BMc08GT/frameworks_native" remote="gh" revision="jb-mr1" /> -->
   <project path="frameworks/opt/telephony" name="BMc08GT/frameworks_opt_telephony" remote="gh" revision="mr1-staging" />
-  <!-- <project path="hardware/libhardware" name="BMc08GT/hardware_libhardware" remote="gh" revision="jb-mr1" />
-  <project path="hardware/qcom/display" name="BMc08GT/hardware_qcom_display-legacy" remote="gh" revision="jb-mr1" /> -->
-  <project path="hardware/qcom/display" name="BMc08GT/hardware_qcom_display" remote="gh" revision="jb-mr1" />
   <project path="packages/apps/Phone" name="BMc08GT/packages_apps_Phone" remote="gh" revision="jb-mr1" />
   <project path="vendor/aokp" name="BMc08GT/vendor_aokp" remote="gh" revision="jb-mr1" />
-  <project path="vendor/samsung" name="BMc08GT/vendor_samsung" remote="gh" revision="jb-mr1" />
 
   <!-- Kernel
       Will update revision when faux is closer :) -->
