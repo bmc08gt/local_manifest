@@ -18,6 +18,7 @@
   <project path="device/samsung/msm8960-common" name="BMc08GT/device_samsung_msm8960-common" remote="gh" revision="jb" />
   <project path="device/samsung/qcom-common" name="BMc08GT/device_samsung_qcom-common" remote="gh" revision="jb" />
   <project path="frameworks/native" name="BMc08GT/frameworks_native" remote="gh" revision="jb-mr1" />
+  <project path="frameworks/opt/telephony" name="BMc08GT/frameworks_opt_telephony" remote="gh" revision="mr1-staging" />
   <project path="hardware/libhardware" name="BMc08GT/hardware_libhardware" remote="gh" revision="jb-mr1" />
   <project path="hardware/qcom/display" name="BMc08GT/hardware_qcom_display-legacy" remote="gh" revision="jb-mr1" />
   <!-- <project path="hardware/qcom/display" name="BMc08GT/hardware_qcom_display" remote="gh" revision="jb-mr1" /> -->
