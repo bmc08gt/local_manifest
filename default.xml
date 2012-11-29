@@ -5,7 +5,7 @@
            fetch="https://github.com/" />
            
   <remove-project name="AOKP/frameworks_native" />
-  <remove-project name="android_frameworks_opt_telephony"
+  <remove-project name="android_frameworks_opt_telephony" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="AOKP/vendor_aokp" />
