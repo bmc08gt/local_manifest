@@ -31,7 +31,7 @@
 
   <!-- Kernel
       Will update revision when faux is closer :) -->
-  <project path="kernel/samsung/d2" name="CyanogenMod/kernel_samsung_d2" remote="gh" revision="mr1-staging" />
+  <project path="kernel/samsung/d2" name="CyanogenMod/android_kernel_samsung_d2" remote="gh" revision="mr1-staging" />
 
 </manifest>  
 
