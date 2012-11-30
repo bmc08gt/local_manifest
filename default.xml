@@ -30,7 +30,7 @@
   <!-- Kernel
       Will update revision when faux is closer :) -->
   <project path="kernel/samsung/d2" name="CyanogenMod/android_kernel_samsung_d2" remote="gh" revision="mr1-staging" />
-  <project path="kernel/samsung/d2-legacy" name="Faux/SGH-Krait" remote="gh" revision="jb_cm_exp" />
+  <project path="kernel/samsung/d2-legacy" name="faux123/SGH-Krait" remote="gh" revision="jb_cm_exp" />
 
 </manifest>  
 
