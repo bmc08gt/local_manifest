@@ -10,8 +10,8 @@
    
   <!-- QCOM swap -->
   <!-- <remove-project name="AOKP/frameworks_native" />
-  <remove-project name="platform/hardware/libhardware" />
-  <remove-project name="platform/hardware/qcom/display" /> -->
+  <remove-project name="platform/hardware/libhardware" />-->
+  <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="AOKP/vendor_samsung" />
   <!-- break -->
   <!-- <project path="frameworks/native" name="BMc08GT/frameworks_native" remote="gh" revision="jb-mr1" />
