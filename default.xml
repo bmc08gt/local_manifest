@@ -21,10 +21,10 @@
   <project path="vendor/samsung" name="BMc08GT/vendor_samsung" remote="gh" revision="jb-mr1" />
 
   <!-- Local -->
-  <project path="device/samsung/d2-common" name="BMc08GT/device_samsung_d2-common" remote="gh" revision="jb" />
-  <project path="device/samsung/d2vzw" name="BMc08GT/device_samsung_d2vzw" remote="gh" revision="jb" />
+  <project path="device/samsung/d2-common" name="BMc08GT/device_samsung_d2-common" remote="gh" revision="jb-mr1" />
+  <project path="device/samsung/d2vzw" name="BMc08GT/device_samsung_d2vzw" remote="gh" revision="jb-mr1" />
   <project path="device/samsung/msm8960-common" name="BMc08GT/device_samsung_msm8960-common" remote="gh" revision="jb-mr1" />
-  <project path="device/samsung/qcom-common" name="BMc08GT/device_samsung_qcom-common" remote="gh" revision="jb" />
+  <project path="device/samsung/qcom-common" name="BMc08GT/device_samsung_qcom-common" remote="gh" revision="jb-mr1" />
   <project path="frameworks/base" name="BMc08GT/frameworks_base" remote="gh" revision="jb-mr1" />
   <project path="frameworks/opt/telephony" name="BMc08GT/frameworks_opt_telephony" remote="gh" revision="mr1-staging" />
   <project path="vendor/aokp" name="BMc08GT/vendor_aokp" remote="gh" revision="jb-mr1" />
