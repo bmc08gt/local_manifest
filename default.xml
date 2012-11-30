@@ -19,7 +19,7 @@
   <project path="frameworks/base" name="BMc08GT/frameworks_base" remote="gh" revision="jb-mr1" />
   <project path="frameworks/opt/telephony" name="BMc08GT/frameworks_opt_telephony" remote="gh" revision="mr1-staging" />
   <project path="hardware/qcom/audio" name="BMc08GT/hardware_qcom_audio" remote="gh" revision="jb-mr1" />
-  <project path="hardware/qcom/audio" name="BMc08GT/hardware_qcom_audio-legacy" remote="gh" revision="mr1-staging" />
+  <project path="hardware/qcom/audio-legacy" name="BMc08GT/hardware_qcom_audio-legacy" remote="gh" revision="mr1-staging" />
   <project path="hardware/qcom/display" name="BMc08GT/hardware_qcom_display" remote="gh" revision="jb-mr1" />
   <project path="vendor/aokp" name="BMc08GT/vendor_aokp" remote="gh" revision="jb-mr1" />
   <project path="vendor/samsung" name="BMc08GT/vendor_samsung" remote="gh" revision="jb-mr1" />
