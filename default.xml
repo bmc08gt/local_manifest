@@ -5,9 +5,7 @@
            fetch="https://github.com/" />
            
   <remove-project name="AOKP/frameworks_base" />
-  <!-- <remove-project name="AOKP/frameworks_native" /> -->
   <remove-project name="android_frameworks_opt_telephony" />
-  <!-- <remove-project name="platform/hardware/libhardware" /> -->
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="AOKP/vendor_aokp" />
@@ -22,15 +20,11 @@
   
   <!-- FW -->
   <project path="frameworks/base" name="BMc08GT/frameworks_base" remote="gh" revision="jb-mr1" />
-  <!-- <project path="frameworks/native" name="BMc08GT/frameworks_native" remote="gh" revision="jb-mr1" /> -->
   <project path="frameworks/opt/telephony" name="BMc08GT/frameworks_opt_telephony" remote="gh" revision="mr1-staging" />
   
   <!-- Hardware -->
-  <!-- <project path="hardware/libhardware" name="BMc08GT/hardware_libhardware" remote="gh" revision="jb-mr1" /> -->
   <project path="hardware/qcom/audio" name="BMc08GT/hardware_qcom_audio" remote="gh" revision="jb-mr1" />
-  <!-- <project path="hardware/qcom/audio-legacy" name="BMc08GT/hardware_qcom_audio-legacy" remote="gh" revision="mr1-staging" /> -->
   <project path="hardware/qcom/display" name="BMc08GT/hardware_qcom_display" remote="gh" revision="jb-mr1" />
-  <!-- <project path="hardware/qcom/display-legacy" name="BMc08GT/hardware_qcom_display-legacy" remote="gh" revision="jb-mr1" /> -->
   
   <!-- Vendor -->
   <project path="vendor/aokp" name="BMc08GT/vendor_aokp" remote="gh" revision="jb-mr1" />
@@ -38,7 +32,6 @@
 
   <!-- Kernel -->
   <project path="kernel/samsung/d2" name="CyanogenMod/android_kernel_samsung_d2" remote="gh" revision="mr1-staging" />
-  <!--<project path="kernel/samsung/d2" name="faux123/SGH-Krait" remote="gh" revision="jb_cm_exp" /> -->
 
 </manifest>  
 
