@@ -4,6 +4,7 @@
   <remote  name="gh"
            fetch="https://github.com/" />
            
+  <remove-project name="AOKP/android_bionic" />
   <remove-project name="AOKP/frameworks_base" />
   <remove-project name="android_frameworks_opt_telephony" />
   <remove-project name="platform/hardware/qcom/audio" />
@@ -14,6 +15,7 @@
   <remove-project name="AOKP/vendor_samsung" />
 
   <!-- Local -->
+  <project path="bionic" name="BMc08GT/bionic" remote="gh" revision="jb-mr1" />
   <project path="device/samsung/d2-common" name="BMc08GT/device_samsung_d2-common" remote="gh" revision="jb-mr1" />
   <project path="device/samsung/d2vzw" name="BMc08GT/device_samsung_d2vzw" remote="gh" revision="jb-mr1" />
   <project path="device/samsung/msm8960-common" name="BMc08GT/device_samsung_msm8960-common" remote="gh" revision="jb-mr1" />
