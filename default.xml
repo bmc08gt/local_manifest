@@ -18,6 +18,7 @@
   <!-- Local -->
   <project path="bionic" name="BMc08GT/bionic" remote="gh" revision="jb-mr1" />
   <project path="device/samsung/d2-common" name="BMc08GT/device_samsung_d2-common" remote="gh" revision="jb-mr1" />
+  <project path="device/samsung/d2usc" name="BMc08GT/device_samsung_d2usc" remote="gh" revision="jb" />
   <project path="device/samsung/d2vzw" name="BMc08GT/device_samsung_d2vzw" remote="gh" revision="jb-mr1" />
   <project path="device/samsung/msm8960-common" name="BMc08GT/device_samsung_msm8960-common" remote="gh" revision="jb-mr1" />
   <project path="device/samsung/qcom-common" name="BMc08GT/device_samsung_qcom-common" remote="gh" revision="jb-mr1" />
