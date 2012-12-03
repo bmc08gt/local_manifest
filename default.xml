@@ -18,20 +18,20 @@
 
   <!-- Local -->
   <project path="bionic" name="bionic" remote="gh" revision="jb-mr1" />
-  <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="gh" />
-  <project path="device/samsung/d2usc" name="device_samsung_d2usc" remote="gh" />
-  <project path="device/samsung/d2vzw" name="device_samsung_d2vzw" remote="gh" />
-  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="gh" />
-  <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="gh" />
-  <project path="frameworks/base" name="frameworks_base" remote="gh" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="gh" />
-  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="gh" />
-  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="gh" />
-  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="gh" />
-  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="gh" />
-  <project path="system/core" name="system_core" remote="gh" />
-  <project path="vendor/aokp" name="vendor_aokp" remote="gh" />
-  <project path="vendor/samsung" name="vendor_samsung" remote="gh" />
+  <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="gh" revision="jb-mr1" />
+  <project path="device/samsung/d2usc" name="device_samsung_d2usc" remote="gh" revision="jb-mr1"/>
+  <project path="device/samsung/d2vzw" name="device_samsung_d2vzw" remote="gh" revision="jb-mr1" />
+  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="gh" revision="jb-mr1" />
+  <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="gh" revision="jb-mr1" />
+  <project path="frameworks/base" name="frameworks_base" remote="gh"revision="jb-mr1" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="gh" revision="jb-mr1" />
+  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="gh" revision="jb-mr1" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="gh" revision="jb-mr1" />
+  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="gh" revision="jb-mr1"/>
+  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="gh"  revision="jb-mr1"/>
+  <project path="system/core" name="system_core" remote="gh" revision="jb-mr1" />
+  <project path="vendor/aokp" name="vendor_aokp" remote="gh" revision="jb-mr1" />
+  <project path="vendor/samsung" name="vendor_samsung" remote="gh" revision="jb-mr1" />
 
   <!-- Kernel -->
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="mr1-staging" />
