@@ -36,8 +36,8 @@
   <project path="vendor/samsung" name="vendor_samsung" remote="gh" revision="jb-mr1" />
 
   <!-- Kernel -->
-  <!-- <project path="kernel/samsung/d2" name="kernel_samsung_d2" remote="gh" revision="jb-mr1" /> -->
-  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="mr1-staging" />
+  <project path="kernel/samsung/d2" name="kernel_samsung_d2" remote="gh" revision="jb-mr1" /> 
+  <!-- <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="mr1-staging" /> -->
 
 </manifest>  
 
