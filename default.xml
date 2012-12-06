@@ -14,7 +14,7 @@
   <remove-project name="platform/hardware/qcom/power" />
   <remove-project name="AOKP/packages_apps_Phone" />
   <remove-project name="AOKP/packages_apps_ROMControl" />
-  <remove-project name="platfrom/packages/providers/MediaProvider" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="AOKP/android_system_core" />
   <remove-project name="AOKP/vendor_aokp" />
   <remove-project name="AOKP/vendor_samsung" />
