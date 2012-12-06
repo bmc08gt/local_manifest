@@ -14,6 +14,7 @@
   <remove-project name="platform/hardware/qcom/power" />
   <remove-project name="AOKP/packages_apps_Phone" />
   <remove-project name="AOKP/packages_apps_ROMControl" />
+  <remove-project name="platfrom/packages/providers/MediaProvider" />
   <remove-project name="AOKP/android_system_core" />
   <remove-project name="AOKP/vendor_aokp" />
   <remove-project name="AOKP/vendor_samsung" />
@@ -33,6 +34,7 @@
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="gh"  revision="jb-mr1"/>
   <project path="packages/apps/Phone" name="packages_apps_Phone" remote="gh"  revision="jb-mr1"/>
   <project path="packages/apps/ROMControl" name="packages_apps_ROMControl" remote="gh"  revision="jb-mr1"/>
+  <project path="packages/providers/MediaProvider" name="packages_providers_mediaprovider" remote="gh" revision="master" />
   <project path="system/core" name="system_core" remote="gh" revision="jb-mr1" />
   <project path="vendor/aokp" name="vendor_aokp" remote="gh" revision="jb-mr1" />
   <project path="vendor/samsung" name="vendor_samsung" remote="gh" revision="jb-mr1" />
