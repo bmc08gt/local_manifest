@@ -6,8 +6,10 @@
            revision="jb-mr1" />
            
   <remove-project name="AOKP/android_bionic" />
+  <remove-project name="device/common" />
   <remove-project name="AOKP/external_jpeg" />
   <remove-project name="AOKP/external_libpng" />
+  <remove-project name="AOKP/frameworks_av" />
   <remove-project name="AOKP/frameworks_base" />
   <remove-project name="android_frameworks_opt_telephony" />
   <remove-project name="platform/hardware/qcom/audio" />
@@ -24,6 +26,7 @@
 
   <!-- Local -->
   <project path="bionic" name="bionic" remote="gh" revision="jb-mr1" />
+  <project path="device/common" name="device_common" remote="gh" revision="jb-mr1" />
   <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="gh" revision="jb-mr1" />
   <project path="device/samsung/d2usc" name="device_samsung_d2usc" remote="gh" revision="jb-mr1"/>
   <project path="device/samsung/d2vzw" name="device_samsung_d2vzw" remote="gh" revision="jb-mr1" />
@@ -31,6 +34,7 @@
   <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="gh" revision="jb-mr1" />
   <project path="external/jpeg" name="external_jpeg" remote="gh" revision="jb-mr1" />
   <project path="external/libpng" name="external_libpng" remote="gh" revision="jb-mr1" />
+  <project path="frameworks/av" name="frameworks_av" remote="gh" revision="jb-mr1" />
   <project path="frameworks/base" name="frameworks_base" remote="gh" revision="jb-mr1" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="gh" revision="jb-mr1" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="gh" revision="jb-mr1" />
