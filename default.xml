@@ -5,47 +5,22 @@
            fetch="https://github.com/BMc08GT" 
            revision="jb-mr1" />
            
+           
+  <!-- Remove projects -->
   <remove-project name="AOKP/android_bionic" />
-  <remove-project name="device/common" />
-  <remove-project name="AOKP/external_jpeg" />
-  <remove-project name="AOKP/external_libpng" />
   <remove-project name="AOKP/frameworks_av" />
   <remove-project name="AOKP/frameworks_base" />
   <remove-project name="android_frameworks_opt_telephony" />
-  <remove-project name="platform/hardware/qcom/audio" />
-  <remove-project name="platform/hardware/qcom/camera" />
-  <remove-project name="platform/hardware/qcom/display" />
-  <remove-project name="platform/hardware/qcom/media" />
-  <remove-project name="platform/hardware/qcom/power" />
-  <remove-project name="AOKP/packages_apps_Phone" />
   <remove-project name="AOKP/packages_apps_ROMControl" />
-  <remove-project name="platform/packages/providers/MediaProvider" />
-  <remove-project name="AOKP/android_system_core" />
   <remove-project name="AOKP/vendor_aokp" />
   <remove-project name="AOKP/vendor_samsung" />
-
+  
   <!-- Local -->
   <project path="bionic" name="bionic" remote="gh" revision="jb-mr1" />
-  <project path="device/common" name="device_common" remote="gh" revision="jb-mr1" />
-  <project path="device/samsung/d2-common" name="device_samsung_d2-common" remote="gh" revision="jb-mr1" />
-  <project path="device/samsung/d2usc" name="device_samsung_d2usc" remote="gh" revision="jb-mr1"/>
-  <project path="device/samsung/d2vzw" name="device_samsung_d2vzw" remote="gh" revision="jb-mr1" />
-  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="gh" revision="jb-mr1" />
-  <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="gh" revision="jb-mr1" />
-  <project path="external/jpeg" name="external_jpeg" remote="gh" revision="jb-mr1" />
-  <project path="external/libpng" name="external_libpng" remote="gh" revision="jb-mr1" />
   <project path="frameworks/av" name="frameworks_av" remote="gh" revision="jb-mr1" />
   <project path="frameworks/base" name="frameworks_base" remote="gh" revision="jb-mr1" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="gh" revision="jb-mr1" />
-  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="gh" revision="jb-mr1" />
-  <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="gh" revision="jb-mr1" />
-  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="gh" revision="jb-mr1" />
-  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="gh" revision="jb-mr1"/>
-  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="gh"  revision="jb-mr1"/>
-  <project path="packages/apps/Phone" name="packages_apps_Phone" remote="gh"  revision="jb-mr1"/>
   <project path="packages/apps/ROMControl" name="packages_apps_ROMControl" remote="gh"  revision="jb-mr1"/>
-  <project path="packages/providers/MediaProvider" name="packages_providers_mediaprovider" remote="gh" revision="master" />
-  <project path="system/core" name="system_core" remote="gh" revision="jb-mr1" />
   <project path="vendor/aokp" name="vendor_aokp" remote="gh" revision="jb-mr1" />
   <project path="vendor/samsung" name="vendor_samsung" remote="gh" revision="jb-mr1" />
 
