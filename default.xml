@@ -9,7 +9,7 @@
   <!-- Remove projects -->
   <remove-project name="AOKP/android_build" />
   <remove-project name="AOKP/android_bionic" />
-  <remove-project name="AOKP/frameworks_av" />
+  <remove-project name="android_frameworks_av" />
   <remove-project name="AOKP/frameworks_base" />
   <remove-project name="android_frameworks_opt_telephony" />
   <remove-project name="AOKP/packages_apps_ROMControl" />
