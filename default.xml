@@ -7,6 +7,7 @@
            
            
   <!-- Remove projects -->
+  <remove-project name="AOKP/android_build" />
   <remove-project name="AOKP/android_bionic" />
   <remove-project name="AOKP/frameworks_av" />
   <remove-project name="AOKP/frameworks_base" />
@@ -16,6 +17,9 @@
   <remove-project name="AOKP/vendor_samsung" />
   
   <!-- Local -->
+  <project path="build" name="build" remote="gh" revision="jb-mr1" >
+  <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="bionic" name="bionic" remote="gh" revision="jb-mr1" />
   <project path="frameworks/av" name="frameworks_av" remote="gh" revision="jb-mr1" />
   <project path="frameworks/base" name="frameworks_base" remote="gh" revision="jb-mr1" />
