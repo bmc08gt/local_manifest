@@ -21,7 +21,7 @@
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="bionic" remote="gh" revision="jb-mr1" />
-  <project path="frameworks/av" name="frameworks_av" remote="gh" revision="jb-mr1" />
+  <project path="frameworks/av" name="frameworks_av" remote="gh" revision="cm-10.1" />
   <project path="frameworks/base" name="frameworks_base" remote="gh" revision="jb-mr1" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="gh" revision="cm-10.1" />
   <project path="packages/apps/ROMControl" name="packages_apps_ROMControl" remote="gh"  revision="jb-mr1"/>
