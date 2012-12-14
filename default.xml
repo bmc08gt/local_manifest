@@ -2,8 +2,10 @@
 <manifest>
 
   <remote  name="gh"
-           fetch="https://github.com/BMc08GT" 
-           revision="jb-mr1" />
+           fetch="https://github.com/BMc08GT" />
+           
+  <remote  name="github"
+           fetch="https://github.com/"/>         
            
            
   <!-- Remove projects -->
@@ -26,7 +28,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="gh" revision="jb-mr1" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="gh" revision="cm-10.1" />
   <project path="packages/apps/ROMControl" name="packages_apps_ROMControl" remote="gh"  revision="jb-mr1"/>
-  <project path="hardware/qcom/display" name="Stevespear426/hardware_qcom_display" remote="gh" revision="master" />
+  <project path="hardware/qcom/display" name="Stevespear426/hardware_qcom_display" remote="github" revision="master" />
   <project path="vendor/aokp" name="vendor_aokp" remote="gh" revision="jb-mr1" />
   <project path="vendor/samsung" name="vendor_samsung" remote="gh" revision="jb-mr1" />
 
