@@ -11,6 +11,8 @@
   <!-- Remove projects -->
   <remove-project name="AOKP/android_build" />
   <remove-project name="AOKP/android_bionic" />
+  <remove-project name="AOKP/device_samsung_d2usc" />
+  <remove-project name="AOKP/device_samsung_d2vzw" />
   <remove-project name="android_frameworks_av" />
   <remove-project name="AOKP/frameworks_base" />
   <remove-project name="android_frameworks_opt_telephony" />
@@ -24,6 +26,8 @@
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="bionic" remote="gh" revision="jb-mr1" />
+  <project path="device/samsung/d2usc" name="device_samsung_d2usc" remote="gh" revision="jb-mr1" />
+  <project path="device/samsung/d2vzw" name="device_samsung_d2vzw" remote="gh" revision="jb-mr1" />
   <project path="frameworks/av" name="frameworks_av" remote="gh" revision="cm-10.1" />
   <project path="frameworks/base" name="frameworks_base" remote="gh" revision="jb-mr1" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="gh" revision="cm-10.1" />
