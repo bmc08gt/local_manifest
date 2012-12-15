@@ -16,7 +16,7 @@
   <remove-project name="AOKP/device_samsung_d2vzw" />
   <remove-project name="android_frameworks_av" />
   <remove-project name="AOKP/frameworks_base" />
-  <remove-project name="androi_frameworks_native" />
+  <remove-project name="android_frameworks_native" />
   <remove-project name="android_frameworks_opt_telephony" />
   <remove-project name="android_hardware_qcom_display" />
   <remove-project name="AOKP/packages_apps_ROMControl" />
