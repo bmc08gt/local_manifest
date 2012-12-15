@@ -2,10 +2,10 @@
 <manifest>
 
   <remote  name="gh"
-           fetch="https://github.com/BMc08GT/" />
+           fetch="https://github.com/BMc08GT" />
            
   <remote  name="steve"
-           fetch="https://github.com/Stevespear426/" />         
+           fetch="https://github.com/Stevespear426" />         
            
            
   <!-- Remove projects -->
