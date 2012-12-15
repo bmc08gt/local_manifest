@@ -11,7 +11,7 @@
   <!-- Remove projects -->
   <remove-project name="AOKP/android_build" />
   <remove-project name="AOKP/android_bionic" />
-  <remove-project name="AOKP/android_device_samsung_d2-commmon" />
+  <remove-project name="AOKP/android_device_samsung_d2-common" />
   <remove-project name="AOKP/device_samsung_d2usc" />
   <remove-project name="AOKP/device_samsung_d2vzw" />
   <remove-project name="android_frameworks_av" />
