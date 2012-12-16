@@ -39,7 +39,7 @@
   <remove-project name="platform/frameworks/ex" />
   <remove-project name="platform/libcore" />
   <!--Linaro Additions -->
-   <project path="bionic" name="bionic" remote="steve" revision="jb-mr1" />
+  <project path="bionic" name="android_bionic" remote="steve" revision="jb-mr1" />
   <project path="dalvik" name="dalvik" remote="steve" revision="jb-mr1" />
   <project path="development" name="development" remote="steve" revision="jb-mr1" />
   <project path="external/chromium" name="external_chromium" remote="steve" revision="jb-mr1" />
