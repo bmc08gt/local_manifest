@@ -19,6 +19,7 @@
   <remove-project name="android_frameworks_native" />
   <remove-project name="android_frameworks_opt_telephony" />
   <remove-project name="android_hardware_qcom_display" />
+  <remove-project name="AOKP/packages_apps_Camera" />
   <remove-project name="AOKP/packages_apps_ROMControl" />
   <remove-project name="platform/packages/wallpapers/LivePicker" />
   <remove-project name="AOKP/vendor_aokp" />
@@ -67,6 +68,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="gh" revision="jb-mr1" />
   <project path="frameworks/native" name="frameworks_native" remote="gh" revision="cm-10.1" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="gh" revision="cm-10.1" />
+  <project path="packages/apps/Camera" name="packages_apps_Camera" remote="gh"  revision="jb-mr1"/>
   <project path="packages/apps/ROMControl" name="packages_apps_ROMControl" remote="gh"  revision="jb-mr1"/>
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="gh" revision="cm-10.1" />
   <project path="vendor/aokp" name="vendor_aokp" remote="gh" revision="jb-mr1" />
