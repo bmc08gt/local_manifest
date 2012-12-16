@@ -10,14 +10,11 @@
            
   <!-- Remove projects -->
   <remove-project name="AOKP/android_build" />
-  <remove-project name="AOKP/android_device_samsung_d2-common" />
-  <remove-project name="AOKP/device_samsung_d2usc" />
-  <remove-project name="AOKP/device_samsung_d2vzw" />
-  <remove-project name="android_frameworks_av" />
+  <remove-project name="AOKP/frameworks_av" />
   <remove-project name="AOKP/frameworks_base" />
-  <remove-project name="android_frameworks_native" />
+  <remove-project name="AOKP/frameworks_native" />
   <remove-project name="android_frameworks_opt_telephony" />
-  <remove-project name="android_hardware_qcom_display" />
+  <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/packages/apps/Camera" />
   <remove-project name="AOKP/packages_apps_ROMControl" />
   <remove-project name="platform/packages/wallpapers/LivePicker" />
