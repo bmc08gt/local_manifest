@@ -20,10 +20,12 @@
   <remove-project name="android_frameworks_opt_telephony" />
   <remove-project name="android_hardware_qcom_display" />
   <remove-project name="AOKP/packages_apps_ROMControl" />
+  <remove-project name="platform/packages/wallpapers/LivePicker" />
   <remove-project name="AOKP/vendor_aokp" />
   <remove-project name="AOKP/vendor_samsung" />
   
   <!-- Linaro removals -->
+  <remove-project name="platform/dalvik" />
   <remove-project name="platform/development" />
   <remove-project name="platform/external/chromium" />
   <remove-project name="platform/external/dnsmasq" />
@@ -36,6 +38,7 @@
   <remove-project name="platform/frameworks/ex" />
   <remove-project name="platform/libcore" />
   <!--Linaro Additions -->
+  <project path="dalvik" name="dalvik" remote="steve" revision="jb-mr1" />
   <project path="development" name="development" remote="steve" revision="jb-mr1" />
   <project path="external/chromium" name="external_chromium" remote="steve" revision="jb-mr1" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="steve" revision="jb-mr1" />
@@ -48,6 +51,9 @@
   <project path="frameworks/ex" name="frameworks_ex" remote="steve" revision="jb-mr1" />
   <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="steve" revision="jb-mr1" />
   <project path="libcore" name="libcore" remote="steve" revision="jb-mr1" />
+  
+  <!-- Fixxors -->
+  <project path="packages/wallpapers/LivePicker" name="packages_wallpapers_LivePicker" remote="steve" revision="jb-mr1" />
   
   <!-- Local -->
   <project path="build" name="build" remote="gh" revision="jb-mr1" >
