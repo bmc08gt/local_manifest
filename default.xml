@@ -9,17 +9,12 @@
   <remote  name="muppets"
            fetch="https://github.com/TheMuppets/" />
            
-           <remove-project name="build" />
-           <remove-project name="platform/system/core" />
-           
   <!-- add this repo -->
   <project path="local_manifest" name="local_manifest" remote="bmc" revision="master" />
   
-  <project path="build" name="build" name="build" revision="L" groups="pdk,tradefed" />
   <project path="device/moto/ghost" name="android_device_motorola_ghost" remote="bmc" revision="cm-12.0" />
   <project path="device/moto/qcom-common" name="android_device_motorola_qcom-common" remote="bmc" revision="cm-12.0" />
   <project path="kernel/moto/ghost" name="android_kernel_motorola_ghost" remote="bmc" revision="cm-12.0" />
-  <project path="system/core" name="android_system_core" remote="bmc" revision="L" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="muppets" revision="cm-11.0" />
   
   
