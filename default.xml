@@ -15,7 +15,7 @@
   <project path="device/motorola/msm8960dt-common" name="android_device_motorola_msm8960dt-common" remote="bmc" revision="cm-12.0" />
   <project path="device/motorola/qcom-common" name="android_device_motorola_qcom-common" remote="bmc" revision="cm-12.0" />
   <project path="kernel/motorola/msm8960dt-common" name="android_kernel_motorola_msm8960dt-common" remote="bmc" revision="cm-12.0" />
-  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="muppets" revision="cm-11.0"
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="muppets" revision="cm-11.0" />
   
   
 </manifest>
