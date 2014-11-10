@@ -9,7 +9,7 @@
   <remote  name="muppets"
            fetch="https://github.com/TheMuppets/" />
            
-           <remove-project name="platform/build" />
+           <remove-project name="build" />
            <remove-project name="platform/system/core" />
            
   <!-- add this repo -->
