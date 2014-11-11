@@ -9,13 +9,20 @@
   <remote  name="muppets"
            fetch="https://github.com/TheMuppets/" />
            
+  <remove-project name="android_hardware_qcom_audio" />
+  <remove-project name="android_hardware_qcom_display" />
+  <remove-project name="android_hardware_qcom_media" />
+           
   <!-- add this repo -->
   <project path="local_manifest" name="local_manifest" remote="bmc" revision="master" />
   
-  <project path="device/moto/ghost" name="android_device_motorola_ghost" remote="bmc" revision="cm-12.0" />
-  <project path="device/moto/qcom-common" name="android_device_motorola_qcom-common" remote="bmc" revision="cm-12.0" />
-  <project path="kernel/moto/ghost" name="android_kernel_motorola_ghost" remote="bmc" revision="cm-12.0" />
-  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="muppets" revision="cm-11.0" />
+  <project path="device/moto/ghost" name="android_device_moto_ghost" remote="bmc" revision="cm-12.0" />
+  <project path="device/moto/qcom-common" name="android_device_moto_qcom-common" remote="bmc" revision="cm-12.0" />
+  <project path="hardware/qcom/audio-caf/legacy" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-12.0-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8960" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-12.0-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8960" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-12.0-caf-8960" />
+  <project path="kernel/moto/ghost" name="android_kernel_moto_ghost" remote="bmc" revision="cm-12.0" />
+  <project path="vendor/motorola" name="proprietary_vendor_moto" remote="muppets" revision="cm-11.0" />
   
   
 </manifest>
