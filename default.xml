@@ -22,7 +22,7 @@
   <project path="hardware/qcom/media-caf/msm8960" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-12.0-caf-8960" />
   <project path="hardware/qcom/display-caf/msm8960" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-12.0-caf-8960" />
   <project path="kernel/moto/ghost" name="android_kernel_moto_ghost" remote="bmc" revision="cm-12.0" />
-  <project path="vendor/motorola" name="proprietary_vendor_moto" remote="muppets" revision="cm-11.0" />
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="muppets" revision="cm-11.0" />
   
   
 </manifest>
