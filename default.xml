@@ -13,6 +13,7 @@
   <remove-project name="CyanogenMod/android_hardware_qcom_audio" />
   <remove-project name="CyanogenMod/android_hardware_qcom_display" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
+  <remove-project name="CyanogenMod/android_system_core" />
            
   <!-- add this repo -->
   <project path="local_manifest" name="local_manifest" remote="bmc" revision="master" />
@@ -24,6 +25,7 @@
   <project path="hardware/qcom/media-caf/msm8960" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-12.0-caf-8960" />
   <project path="hardware/qcom/display-caf/msm8960" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-12.0-caf-8960" />
   <project path="kernel/moto/ghost" name="android_kernel_moto_ghost" remote="bmc" revision="cm-12.0" />
+  <project path="system/core" name="android_system_core" remote=""muppets"bmc" revision="cm-12.0" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="muppets" revision="cm-11.0" />
   
   
