@@ -15,6 +15,7 @@
   <project path="local_manifest" name="local_manifest" remote="bmc" revision="master" />
   
   <project path="device/motorola/ghost" name="android_device_moto_ghost" remote="bmc" revision="cm-12.0" />
+  <project path="kernel/motorola/ghost" name="CyanogenMod/android_device_moto_ghost" remote="github" revision="cm-12.0" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="muppets" revision="cm-12.0" />
   
   
