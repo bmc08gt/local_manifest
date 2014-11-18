@@ -6,8 +6,6 @@
 
   <remote  name="bmc"
            fetch="https://github.com/BMc08GT/" />
-  <remote  name="will"
-           fetch="https://github.com/willdeberry" />
   <remote  name="muppets"
            fetch="https://github.com/TheMuppets/" />
   
