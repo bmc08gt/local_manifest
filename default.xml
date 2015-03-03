@@ -11,6 +11,7 @@
   
   <project path="device/htc/m7" name="device_htc_m7" remote="bmc" revision="lollipop" />
   <project path="device/htc/m7-common" name="device_htc_m7-common" remote="bmc" revision="lollipop" />
+  <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="bmc" revision="lollipop" />
   <project path="kernel/htc/m7" name="CyanogenMod/android_kernel_htc_m7" remote="cm" revision="cm-12.0" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="muppets" revision="cm-12.0" />
   
