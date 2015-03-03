@@ -9,12 +9,10 @@
   <remote  name="muppets"
            fetch="https://github.com/TheMuppets/" />
   
-  <!-- add this repo -->
-  <project path="local_manifest" name="local_manifest" remote="bmc" revision="master" />
-  
-  <project path="device/motorola/ghost" name="CyanogenMod/android_device_motorola_ghost" remote="github" revision="cm-12.0" />
-  <project path="kernel/motorola/ghost" name="CyanogenMod/android_kernel_motorola_ghost" remote="github" revision="cm-12.0" />
-  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="muppets" revision="cm-12.0" />
+  <project path="device/htc/m7" name="device_htc_m7" remote="github" revision="lollipop" />
+  <project path="device/htc/m7-common" name="device_htc_m7-common" remote="github" revision="lollipop" />
+  <project path="kernel/htc/m7" name="CyanogenMod/android_kernel_htc_m7" remote="github" revision="cm-12.0" />
+  <project path="vendor/htc" name="proprietary_vendor_htc" remote="muppets" revision="cm-12.0" />
   
   
 </manifest>
