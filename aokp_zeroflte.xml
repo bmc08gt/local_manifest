@@ -13,7 +13,7 @@
   <project path="device/samsung/zerofltemtr" name="device_samsung_zerofltemtr" remote="bmc" revision="lollipop" />
   <project path="device/samsung/zerofltetmo" name="device_samsung_zerofltetmo" remote="bmc" revision="lollipop" />
   <project path="kernel/samsung/zerofltetmo" name="kernel_samsung_zerofltetmo" remote="bmc" revision="lollipop" />
-  <project path="vendor/samsung" name="proprietary_vendor_htc" remote="bmc" revision="lollipop" />
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="bmc" revision="lollipop" />
   
   
 </manifest>
