@@ -7,7 +7,7 @@
   <remote  name="bmc"
            fetch="https://github.com/BMc08GT/" />
   
-  <project path="device/samsung/zeroflte-gsm" name="device_samsung_zeroflte-gsm" remote="bmc" revision="cm-12.1" />
+  <project path="device/samsung/zeroflte-common" name="device_samsung_zeroflte-common" remote="bmc" revision="cm-12.1" />
   <project path="device/samsung/zerofltemtr" name="device_samsung_zerofltemtr" remote="bmc" revision="cm-12.1" />
   <project path="device/samsung/zerofltetmo" name="device_samsung_zerofltetmo" remote="bmc" revision="cm-12.1" />
   <project path="kernel/samsung/zerofltetmo" name="kernel_samsung_zerofltetmo" remote="bmc" revision="cm-12.1" />
